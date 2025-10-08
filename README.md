@@ -1,3 +1,9 @@
+---
+title: agentic_research_assistant
+app_file: src/app.py
+sdk: gradio
+sdk_version: 5.49.0
+---
 ## Agentic Research Writer
 
 ### Capabilities:
