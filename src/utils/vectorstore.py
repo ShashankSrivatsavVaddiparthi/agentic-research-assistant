@@ -16,7 +16,7 @@ vector_store = FAISS(
     index_to_docstore_id={}
 )
 
-file_path = r"C:\DataScienceAndAI\Learning\Kaggle\GoogleEvents\5DayGenAI\1. Foundational Large Language models & text generation.pdf"
+file_path = r"src/utils/docs/1. Foundational Large Language models & text generation.pdf"
 web_path = "https://lilianweng.github.io/posts/2023-06-23-agent/"
 
 doc_loader = PyMuPDFLoader(file_path)
