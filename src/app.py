@@ -11,9 +11,9 @@ from agents.assistant_agent import assistant_agent
 iface = gr.Interface(
     fn=get_response, 
     inputs=["text"],
-    outputs=gr.Textbox(lines=8, max_lines=20, label="Response"), 
+    outputs=gr.Markdown(label="Response"), 
     title="Agentic Research Assistant",
     description="An AI assistant that uses multiple agents to help with research tasks.",
 )
 
-iface.launch(share=True)
+iface.launch()
