@@ -23,3 +23,8 @@
 - Web search agent
 - Document Retrieval agent (Web docs, PDF docs)
 - SQL agent
+
+### How to run:
+- From project root, run ```pip install -r requirements```
+- You can use ```uv``` to manage your packages for this project.
+- Then, from the project root, do ```uv run python src/app.py``` for a minimal interface to test capabilities.
