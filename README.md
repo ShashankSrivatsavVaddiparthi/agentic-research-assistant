@@ -30,8 +30,9 @@
 
 ### How to run:
 
-- From project root, run ``pip install -r requirements``
+- From project root, run ``pip install -r requirements``.
 - You can use ``uv`` to manage your packages for this project.
+- Setup your API keys in ``.env.example`` and change the name of the file to ``.env``.
 - Then, from the project root, do ``uv run python src/app.py`` for a minimal interface to test capabilities.
 
 ### TODO
