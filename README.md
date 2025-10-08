@@ -47,3 +47,6 @@ sdk_version: 5.49.0
 - Add documentation agent
 - Add docx reading capabilities
 - Add coding capabilities
+
+### Demo Link
+[Agentic Research Assistant](https://samsrivat-agentic-research-assistant.hf.space)
